@@ -34,4 +34,21 @@ Telas
 
 ### Dependencias
 
+| Dependência               | Grupo                        | Artefato                                  | Versão | Escopo      | Opcional |
+|---------------------------|-------------------------------|--------------------------------------------|--------|------------|----------|
+| bootstrap | framework    |     -            |        |            |          |
+| jquery |     |     -            |        |            |          |
+| rxjs  |     |     -            |        |            |          |
+| tslib   |     |     -            |        |            |          |
+| zone.js    |     |     -            |        |            |          |
+
+
+
+
+
+
+
+
+
+
 
