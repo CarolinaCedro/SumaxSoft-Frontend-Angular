@@ -43,7 +43,25 @@ Telas
 | zone.js    |     |     -            |        |            |          |
 
 
+## Rodar Projeto Localmente 
 
+```bash
+# clonar repositório
+  git@github.com:CarolinaCedro/SumaxSoft-Frontend-Angular.git
+   
+# entrar na pasta do projeto frontend web
+  cd sumaSoft
+  
+# instalar dependências
+  npm install 
+  
+# ter instalado
+  O json-server pode ser instalado com o comando npm install -g json-server. 
+  Para executar, use o comando json-server --watch backend.json.
+  
+# Comando para rodar localmente
+  ng serve
+   
 
 
 
