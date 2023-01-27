@@ -2,3 +2,16 @@
 .color-Title{
 color: #333333;
 }
+
+label{
+  display: flex;
+}
+
+p{
+  margin-bottom: 0rem;
+}
+
+small{
+  color: red;
+  font-weight: 700;
+}

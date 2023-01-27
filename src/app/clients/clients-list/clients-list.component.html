@@ -29,39 +29,41 @@
   <br />
   <div class="row">
     <div class="col-lg-12">
-      <table class="table table-condensed table-hover">
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Nome</th>
-            <th>Sobrenome</th>
-            <th>Cpf</th>
-            <th>Cidade</th>
-            <th>Telefone</th>
-            <th>Celular</th>
-            <th>Email</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr *ngFor="let client of clients">
-            <td>{{ client.id }}</td>
-            <td>{{ client.name }}</td>
-            <td>{{ client.lastName }}</td>
-            <td>{{ client.cpf }}</td>
-            <td>{{ client.city }}</td>
-            <td>{{ client.telephone }}</td>
-            <td>{{ client.celullar }}</td>
-            <td>{{ client.email }}</td>
+      <div class="table-responsive">
+        <table class="table table-condensed table-hover">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nome</th>
+              <th>Sobrenome</th>
+              <th>Cpf</th>
+              <th>Cidade</th>
+              <th>Telefone</th>
+              <th>Celular</th>
+              <th>Email</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let client of clients">
+              <td>{{ client.id }}</td>
+              <td>{{ client.name }}</td>
+              <td>{{ client.lastName }}</td>
+              <td>{{ client.cpf }}</td>
+              <td>{{ client.city }}</td>
+              <td>{{ client.telephone }}</td>
+              <td>{{ client.celullar }}</td>
+              <td>{{ client.email }}</td>
 
-            <td>
-              <button type="button" class="btnStyle" routerLink="/clients-form/{{ client.id }}"><i class="fa fa-edit"></i></button>
+              <td>
+                <button type="button" class="btnStyle" routerLink="/clients-form/{{ client.id }}"><i class="fa fa-edit"></i></button>
 
-              <button type="button" class="btnStyle" (click)="pickCustomer(client)" data-toggle="modal" data-target="#modalDelecao"><i class="fa fa-trash"></i></button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+                <button type="button" class="btnStyle" (click)="pickCustomer(client)" data-toggle="modal" data-target="#modalDelecao"><i class="fa fa-trash"></i></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 
