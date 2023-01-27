@@ -32,5 +32,6 @@ Telas
 ![image](https://user-images.githubusercontent.com/75391803/215098078-e75d9149-eee3-48e2-a579-01763213ac4c.png)
 ![image](https://user-images.githubusercontent.com/75391803/215098106-171b51bb-3939-4fc1-ba49-ea71b6f85903.png)
 
+### Dependencias
 
 
