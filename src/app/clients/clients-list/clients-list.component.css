@@ -1,0 +1,18 @@
+
+.fa-edit{
+  color: #0069D9; 
+}
+.fa-trash{
+  color: #dc3545; 
+}
+
+.btn-primary{
+  background-color: #1b6db9;
+  border-color: #1b6db9;
+}
+
+.btnStyle{
+  border-style: none;
+  background: none;
+  outline: none;
+}

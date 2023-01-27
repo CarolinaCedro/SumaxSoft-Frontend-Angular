@@ -1,0 +1,19 @@
+
+.footer-dev {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.bg-component-color{
+  background-color: #001529   ;
+}
+
+a{
+  color: white;
+}
+
+.title-sidebar{
+  color: #797575;
+}
+  
